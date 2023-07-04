@@ -16,7 +16,7 @@
   padding: 30px 80px 40px;
   position: relative;
   box-sizing: border-box;
-  margin: 128px 0 0;
+  
   
 }
 
@@ -41,7 +41,7 @@
 }
 
 .nav__link {
-  color: #000000;
+  color: #000;
   text-decoration: none;
   font-weight: bold;
 }
@@ -54,6 +54,7 @@
   font-size: 66px;
   line-height: 76px;
   font-weight: 500;
+  margin: 128px 0 0;
 }
 
 .header__description {
@@ -243,8 +244,9 @@
 }
 
 .staff {
-  padding: 100px 0 40px;
+  padding: 100px 0 140px;
   background-image: url(../images/staff_picks_background.jpg);
+  background-size: cover;
   
 }
 
@@ -269,9 +271,10 @@
 .staff__cards {
  max-width: 760px;
  margin-top: 68px;
- margin-left: auto;
+ margin-left:auto;
  margin-right:auto;
- margin-bottom:68px;
+ margin-bottom:0px;
+ padding-left: 0%;
  gap: 40px;
  display:flex;
  flex-wrap: wrap;
@@ -343,6 +346,7 @@
   margin: 100px 0 0;
   display: flex;
   justify-content: center;
+  gap: 40px;
   
 
 }
@@ -350,7 +354,7 @@
 .step {
   
  flex-basis:220px;
- margin: 40px;
+ 
 }
  
 .step__title {
@@ -389,6 +393,8 @@
   font-weight: 500;
   z-index: 1;
   max-width: 154px;
+  display:flex;
+  column-gap: 120px;
 }
 
 .about__content {
@@ -396,11 +402,15 @@
   line-height: 30px;
   font-weight: 400;
   max-width: 660px;
-  margin-top: 120px;
-  margin-left: auto;
-  margin-right:auto;
-  margin-bottom: 120px;
   gap: 32px;
+  display: flex;
+  flex-direction: column;
+}
+.about__paragraph{
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 
 .about__circle {
@@ -468,6 +478,8 @@
 
 .footer__column-heading {
   margin:0 0 20px;
+  font-size:16px;
+  line-height:20px;
 }
 
 .footer__column-link {
